@@ -1,4 +1,5 @@
-import scrapeIt from "scrape-it";
+const scrapeIt = require('scrape-it');
+//import scrapeIt from "scrape-it";
 
 scrapeIt("https://www.infomoney.com.br/cotacoes/viavarejo-vvar3/", {
     title: "h1",
